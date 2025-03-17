@@ -1,0 +1,60 @@
+.RegisterPageBaseContainer {
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(to right, var(--baseColor), var(--baseColorDark));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.RegisterPageContentBaseContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:  20px;
+    background-color: var(--whiteColor);
+    border-radius: 20px;
+    border: 1px solid var(--borderColor);
+    align-items: center;
+    justify-content: right ;
+    background-color: transparent;
+}
+.RegisterPageContentTitleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.RegisterPageContentInputContainer{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+.RegisterPageContentButtonContainer{
+
+    
+    padding:
+   
+    /* background-color: transparent;
+    outline:none;
+    
+    outline:none;
+    display:flex;
+    align-items:center; */
+    /* align-content:center */
+    
+    
+
+
+}
+.RegisterPageContentButtonContainer button{
+    padding:10px 20px;
+    border-radius: 10px;
+    width:100%;
+    background-color: #5A5A5A;
+}
