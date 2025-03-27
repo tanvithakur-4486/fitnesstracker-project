@@ -18,6 +18,10 @@ function LoginPage() {
   const [buttonText, setButtonText] = useState("login");
   const navigate = useNavigate();
 
+  const handlelogin = () => {
+    localStorage.setItem("uid", "userCredential.user.uid");
+  };
+
   const handleLogin = async () => {
     try {
       if (email == "" || password == "") alert("Please fill out the fields");
@@ -30,6 +34,7 @@ function LoginPage() {
         );
         setButtonText("login");
         if (response.user.uid) {
+          localStorage.setItem("uid", response.user.uid);
           navigate("/")
         }
       }
@@ -71,6 +76,7 @@ function LoginPage() {
             onChangeText={(e) => setPassword(e.target.value)}
             isSecureEntry={true}
           />
+          {/* <CustomButton onClick={handlelogin} /> */}
         </div>
         <div className="loginPageContentButtonContaier">
           <button onClick={handleLogin}>Login </button>{" "}

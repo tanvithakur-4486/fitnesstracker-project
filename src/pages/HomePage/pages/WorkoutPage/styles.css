@@ -1,0 +1,72 @@
+.fitness-container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color:black;
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-bottom: 10px;
+  padding-top: 20px; */
+}
+
+.info-section {
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  
+}
+
+.input-box {
+  display: flex;
+  padding: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.fitness-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fitness-table th, .fitness-table td {
+  color:black;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.day-header {
+  
+  background-color: #f1f6f7 ;
+  font-weight: bold;
+}
+
+.water-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.water-glass {
+  font-size: 20px;
+  margin: 2px;
+}
+.titleLogoContainer {
+  color:black;
+  
+  
+}
+.header{
+  display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}

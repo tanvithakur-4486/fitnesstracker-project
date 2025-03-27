@@ -1,0 +1,139 @@
+/* .BaseContainer{
+    width:100%;
+    display:flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    flex-direction: column;
+}
+.BaseContainer img{
+    
+    height:100%;
+}
+.mainPagecontentBaseContainer{
+    display: flex;
+    flex-direction:row;
+  align-items: center;
+
+  padding: 50px 50px;
+  min-height: 100vh;
+}
+.mainPagecontentBaseContainer-text {
+  max-width: 500px;
+}
+.mainPagecontentBaseContainer-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.mainPageButtonContainer {
+    width:7%;
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: white;
+    background: #ff4c4c;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.mainPageButtonContainer:hover {
+    background: #e63b3b;
+}
+.gradient-circle {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right, #ff4c4c, #c70039);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+ */
+ .container {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a8caba, #5d6d7e);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height:100%;
+    width:100%;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .text-section h2 {
+    padding-left: 180px;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  
+  .text-section h1 {
+    padding-left: 180px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .text-section p {
+    padding-left: 180px;
+    max-width: 400px;
+    font-size: 20px;
+    
+  }
+  
+  .buttons {
+  
+    margin: 20px;
+    width:30%;
+    cursor: pointer;
+      display: flex;
+      margin: 25px auto;
+      justify-content: center;
+      align-items: center;
+    
+  }
+  /* .buttons{
+    padding: 50px 50px;
+    margin: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  
+  } */
+   .image-section img {
+   width: 450px;
+   height: 70vh;
+  }
+  .container .image-section {
+    padding-left: 400px;
+    
+  }
+  
+  
+  
+  

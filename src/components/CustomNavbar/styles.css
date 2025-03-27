@@ -1,0 +1,42 @@
+.customNavbarBaseContainer{
+    display: flex;
+    padding: 10px 40px;
+    width: 100%;
+    background-color:  #80989a;
+    
+}
+.customNavbarLogoContainer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbarLogoIcon :hover {
+    transform:translateX(10px) ;
+    transition: 5s ease-in-out;
+
+}
+.customNavbarLinkContainer{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+
+
+}
+.customNavbarLinkContainer p {
+    transition: 0.5s ease-in-out;
+}
+.customNavbarLinkContainer p:hover {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.customNavbarProfileContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
