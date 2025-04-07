@@ -10,9 +10,9 @@ function CustomNavbar() {
   const links = [
     { title: "Home", path: "/home" },
     { title: "About us", path: "/about us" },
-    { title: "Profile", path: "/profile" },
     { title: "Workout", path: "/workout" },
     { title: "Progress", path: "/progress" },
+    
     
   
   ];
@@ -32,7 +32,10 @@ function CustomNavbar() {
         })}
       </div>
       <div className="customNavbarProfileContainer">
-        <FaUserCircle size={40} color={COLOR.whiteColor} />
+        <FaUserCircle
+         size={40}
+          color={COLOR.whiteColor}
+          onClick={() => navigate("/profile")} />
       </div>
     </div>
   );

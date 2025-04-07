@@ -70,3 +70,11 @@ align-items: center;
 justify-content: center;
 gap: 10px;
 }
+.gif{
+  display: flex;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}

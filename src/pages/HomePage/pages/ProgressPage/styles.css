@@ -1,18 +1,28 @@
 .dashboard-container {
+  display: flex;
+  flex-direction: column;
     padding: 24px;
     background-color: #f7f7f7;
     min-height: 100vh;
     width:100%;
     padding:40px;
+    
   }
-  
-  .header {
-    color: #80989a;
+  .headermain{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 24px;
+    flex-direction: column;
+    gap: 50px;
+  
   }
+
+.logo{
+  color:#80989a;
+  display: flex;
+  
+  margin-right: 80%;
+}
+  
+
   
   .date-box {
     color:#80989a;

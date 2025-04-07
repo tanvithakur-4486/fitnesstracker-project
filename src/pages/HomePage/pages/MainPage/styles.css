@@ -1,58 +1,4 @@
-/* .BaseContainer{
-    width:100%;
-    display:flex;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;  
-    flex-direction: column;
-}
-.BaseContainer img{
-    
-    height:100%;
-}
-.mainPagecontentBaseContainer{
-    display: flex;
-    flex-direction:row;
-  align-items: center;
-
-  padding: 50px 50px;
-  min-height: 100vh;
-}
-.mainPagecontentBaseContainer-text {
-  max-width: 500px;
-}
-.mainPagecontentBaseContainer-text h1 {
-    font-size: 60px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.mainPageButtonContainer {
-    width:7%;
-    display: inline-block;
-    padding: 12px 30px;
-    font-size: 18px;
-    color: white;
-    background: #ff4c4c;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-}
-.mainPageButtonContainer:hover {
-    background: #e63b3b;
-}
-.gradient-circle {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(to right, #ff4c4c, #c70039);
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
- */
- .container {
+  .container {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #a8caba, #5d6d7e);
     height: 100vh;
@@ -97,8 +43,7 @@
     font-size: 50px;
     font-weight: bold;
   }
-  
-  .text-section p {
+    .text-section p {
     padding-left: 180px;
     max-width: 400px;
     font-size: 20px;
@@ -106,33 +51,42 @@
   }
   
   .buttons {
-  
-    margin: 20px;
+    border-radius: 2px;
+    font-weight: 500;
+     margin: 20px; 
     width:30%;
     cursor: pointer;
       display: flex;
-      margin: 25px auto;
+      margin: 30px auto; 
       justify-content: center;
       align-items: center;
+      margin-right: 20%;
+      transform: scaleX(180 deg);
+      transition: 1.2s;
+  }
+  .buttonmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(180 deg);
+    transition: 1.2s;
     
   }
-  /* .buttons{
-    padding: 50px 50px;
-    margin: 25px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  
-  } */
-   .image-section img {
-   width: 450px;
-   height: 70vh;
+  .image-section img {
+   width: 420px;
+   height: 65vh;
   }
   .container .image-section {
-    padding-left: 400px;
+    padding-left: 300px;
+    
     
   }
+  .buttons :hover{
+    transform: rotateX(360deg);
+      transition: 2s;
+  }
+
+  
   
   
   

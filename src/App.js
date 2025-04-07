@@ -7,7 +7,8 @@ import ProgressPage from "./pages/HomePage/pages/ProgressPage/ProgressPage.js";
 import AboutusPage from "./pages/HomePage/pages/AboutusPage/AboutusPage.js";
 import WorkoutPage from "./pages/HomePage/pages/WorkoutPage/WorkoutPage.js";
 import MainPage from "./pages/HomePage/pages/MainPage/MainPage.js";
-import ProfilePage from "./pages/HomePage/pages/ProfilePage/ProfilePage.js";
+import WorkoutPage1 from "./pages/HomePage/pages/WorkoutPage/pages/StartWorkoutPage/WorkoutPage1.js";
+import ProfilePage from "./pages/HomePage/pages/ProfilePage/ProfilePage";
 
 
 function App() {
@@ -17,11 +18,12 @@ function App() {
         <Route path="/" element={<HomePage />}>
           <Route path="/home" element={<MainPage />} />
           <Route path="/about us" element={<AboutusPage />} />
-          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/progress" element={<ProgressPage />} />
           <Route path="/workout" element={<WorkoutPage />} />
-          
+          <Route path="/workoutPage1" element={<WorkoutPage1 />} />
+          <Route path="/profile" element={<ProfilePage />} />
         </Route>
+
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>

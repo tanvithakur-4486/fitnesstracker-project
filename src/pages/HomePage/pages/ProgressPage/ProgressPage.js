@@ -1,43 +1,46 @@
-import React from "react";
+import React, { useState} from "react";
 import "./styles.css";
 import { SlCalender } from "react-icons/sl";
+import MyCalendar from "../../pages/ProgressPage/Calender/Calender";
 
 
 const Dashboard = () => {
   return (
     <div className="dashboard-container">
       {/* Overview Header */}
+      <div className="headermain">
       <div className="header">
-        <h1>Overview</h1>
+        <div className="logo">
+        <h1>Overview</h1></div>
         <div className="date-box">
-        <h4>March,26</h4> <SlCalender />
+        <h4>{`${new Date().getDate()}/${new Date().getMonth() + 1}/${new Date().getFullYear()}`}</h4> <SlCalender /></div></div>
         
-        </div>
       </div>
 
       {/* Dashboard Grid */}
       <div className="grid-container">
         {/* Stats Cards */}
         <div className="card">
-          <h2>Heart rate</h2>
-          <p className="stat">102 bpm ↑</p>
+           <h2>Heart rate</h2> 
+          <p className="stat"></p>
         </div>
         <div className="card">
           <h2>Steps / distance</h2>
-          <p className="stat">2080 / 1.37km</p>
+          <p className="stat"></p>
         </div>
         <div className="card">
           <h2>Energy burnt</h2>
-          <p className="stat">1249 Cal</p>
+          <p className="stat"></p>
         </div>
         {/* Monthly Goals */}
         <div className="card">
           <h2>Monthly goals</h2>
           <div className="goals">
-            <p>Steps <span>140 / 240K</span></p>
-            <p>Lose weight <span>4 / 5kg</span></p>
-            <p>Workouts <span>4 / 8</span></p>
-            <p>Drink Water <span>30 / 60L</span></p>
+          
+            <p>Steps <span></span></p>
+            <p>Lose weight <span></span></p>
+            <p>Workouts <span></span></p>
+            <p>Drink Water <span></span></p>
           </div>
         </div>
       </div>
@@ -53,20 +56,22 @@ const Dashboard = () => {
         <div className="card">
           <h2>Upcoming trainings</h2>
           <ul>
-            <li>Cycling - 22/6/2022, 5:00 p.m</li>
-            <li>Swimming - 23/6/2022, 6:30 p.m</li>
+            <li>Cycling</li>
+            <li>Swimming</li>
           </ul>
         </div>
         <div className="card">
-          <h2>June</h2>
-          <p className="placeholder">[Calendar Placeholder]</p>
+          / <MyCalendar /> 
         </div>
       </div>
     </div>
   );
 };
 
+
+
 export default Dashboard;
+
 
 
 

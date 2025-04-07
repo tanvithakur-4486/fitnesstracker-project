@@ -5,8 +5,10 @@ const ASSETS = {
     // loginPageImage: require("./images/loginPageImage.jpg"),
     loginPageImager: require("./images/ref.jpg"),
     registerPageImage: require("./images/registerPageImage.jpg"),
-    homePageImage: require("./images/homePageImage.jpg"),
+    // homePageImage: require("./images/homePageImage.jpg"),
     main: require("./images/main.jpg"),
+    aboutus: require("./images/aboutus.jpg"),
+
 
 };
 

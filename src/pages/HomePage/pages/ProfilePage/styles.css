@@ -1,2 +1,12 @@
-
-  
+.profilePageBaseContainer{
+    flex: 1;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+} 
+.profileDataBaseContainer {
+    flex: 1;
+    background-color: red;
+}

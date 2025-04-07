@@ -61,11 +61,11 @@ function RegisterPage() {
       }
     };
          return (
-    <div className="RegisterPageBaseContainer"
-    style={{
-    
+        
+     <div className="RegisterPageBaseContainer"
+      style={{
       backgroundImage: `url(${ASSETS.registerPageImage})`,
-    }}>
+      }}>
       <div className="RegisterPageContentBaseContainer">
         <div className="RegisterPageContentTitleContainer">
           <h1>Create your Account</h1>
