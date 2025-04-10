@@ -4,6 +4,7 @@ import COLOR from "../../config/color";
 import { useNavigate } from "react-router-dom";
 import { IoFitness } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
+import { title } from "framer-motion/client";
 
 function CustomNavbar() {
   const navigate = useNavigate();
@@ -12,6 +13,7 @@ function CustomNavbar() {
     { title: "About us", path: "/about us" },
     { title: "Workout", path: "/workout" },
     { title: "Progress", path: "/progress" },
+    
     
     
   

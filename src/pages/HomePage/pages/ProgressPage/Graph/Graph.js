@@ -26,7 +26,6 @@ const FitnessTrackerGraph = () => {
 
   return (
     <div className="fitness-container">
-      <h2 className="fitness-title">Weekly Steps Count</h2>
       <GoGraph />
       <ResponsiveContainer width="100%" height={300}>
         <LineChart

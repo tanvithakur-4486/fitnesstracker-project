@@ -1,19 +1,16 @@
 .fitness-container {
-  height:100%;
-    padding: 16px;
-    background: white;
-    border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .fitness-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 16px;
-    color: #333;
-  }
-  
-  
+  height: 80%;
+  padding: 16px;
+  background: white;
+  border-radius: 16px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.fitness-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #333;
+}

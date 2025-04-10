@@ -2,9 +2,13 @@ import React, { useState} from "react";
 import "./styles.css";
 import { SlCalender } from "react-icons/sl";
 import MyCalendar from "../../pages/ProgressPage/Calender/Calender";
+import FitnessTrackerGraph from "./Graph/Graph";
 
 
 const Dashboard = () => {
+
+  
+
   return (
     <div className="dashboard-container">
       {/* Overview Header */}
@@ -48,7 +52,7 @@ const Dashboard = () => {
       {/* Activity Chart Placeholder */}
       <div className="card chart-card">
         <h2>My activity</h2>
-        <p className="placeholder">[Chart Placeholder]</p>
+        <FitnessTrackerGraph />
       </div>
 
       {/* Training Schedule & Calendar */}
